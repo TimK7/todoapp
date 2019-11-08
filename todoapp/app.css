@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0E9ED8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#primary-header {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  background: #096E97;
+  /* border: 1px solid white; */
+}
+
+#app {
+  background: #096E97;
+  margin: 0 auto;
+  margin-top: 12px;
+  border: 1px solid white;
+  width: 170px;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+}
+
+/* .todo {
+  border: 1px solid white;
+} */
+
+.todo span {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+/* button spacing */
+.completed {
+  margin: 0 0 0 3px;
+}
+
+#remove:hover {
+  position: relative;
+  height: 25px;
+  width: 80px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 2px;
+  outline: 0;
+  overflow: hidden;
+  background: #0E9ED8;
+  cursor: pointer;
+  transition:         0.05s ease-in;
+  -o-transition:      0.05s ease-in;
+  -ms-transition:     0.05s ease-in;
+  -moz-transition:    0.05s ease-in;
+  -webkit-transition: 0.05s ease-in;
+}
+
+#completed:hover {
+  position: relative;
+  height: 25px;
+  width: 80px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 4px;
+  outline: 0;
+  overflow: hidden;
+  background: #0E9ED8;
+  cursor: pointer;
+  transition:         0.05s ease-in;
+  -o-transition:      0.05s ease-in;
+  -ms-transition:     0.05s ease-in;
+  -moz-transition:    0.05s ease-in;
+  -webkit-transition: 0.05s ease-in;
+}
+
+#todo-submit:hover {
+  position: relative;
+  //display:block;
+  height: 25px;
+  width: 80px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 4px;
+  outline: 0;
+  overflow:hidden;
+  background: #0E9ED8;
+  cursor: pointer;
+  transition:         0.05s ease-in;
+  -o-transition:      0.05s ease-in;
+  -ms-transition:     0.05s ease-in;
+  -moz-transition:    0.05s ease-in;
+  -webkit-transition: 0.05s ease-in;
+}
+
